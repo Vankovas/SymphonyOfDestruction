@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatusApp", "StatusApp\StatusApp.csproj", "{62D26FAB-6856-43C2-A3B5-5D5A84E1D82E}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "StatusAppSetup", "StatusAppSetup\StatusAppSetup.vdproj", "{131B440D-3A17-48FB-87FB-004290EB097F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62D26FAB-6856-43C2-A3B5-5D5A84E1D82E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62D26FAB-6856-43C2-A3B5-5D5A84E1D82E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62D26FAB-6856-43C2-A3B5-5D5A84E1D82E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62D26FAB-6856-43C2-A3B5-5D5A84E1D82E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{131B440D-3A17-48FB-87FB-004290EB097F}.Debug|Any CPU.ActiveCfg = Debug
+		{131B440D-3A17-48FB-87FB-004290EB097F}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

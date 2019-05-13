@@ -1,0 +1,17 @@
+C:\Users\user\source\repos\LoaningApp\LoaningApp\bin\Debug\LoaningApp.exe.config
+C:\Users\user\source\repos\LoaningApp\LoaningApp\bin\Debug\LoaningApp.exe
+C:\Users\user\source\repos\LoaningApp\LoaningApp\bin\Debug\LoaningApp.pdb
+C:\Users\user\source\repos\LoaningApp\LoaningApp\bin\Debug\MySql.Data.dll
+C:\Users\user\source\repos\LoaningApp\LoaningApp\bin\Debug\Google.Protobuf.dll
+C:\Users\user\source\repos\LoaningApp\LoaningApp\bin\Debug\MySql.Data.xml
+C:\Users\user\source\repos\LoaningApp\LoaningApp\obj\Debug\LoaningApp.csprojAssemblyReference.cache
+C:\Users\user\source\repos\LoaningApp\LoaningApp\obj\Debug\LoaningApp.Form1.resources
+C:\Users\user\source\repos\LoaningApp\LoaningApp\obj\Debug\LoaningApp.Properties.Resources.resources
+C:\Users\user\source\repos\LoaningApp\LoaningApp\obj\Debug\LoaningApp.csproj.GenerateResource.cache
+C:\Users\user\source\repos\LoaningApp\LoaningApp\obj\Debug\LoaningApp.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\LoaningApp\LoaningApp\obj\Debug\LoaningApp.csproj.CopyComplete
+C:\Users\user\source\repos\LoaningApp\LoaningApp\obj\Debug\LoaningApp.exe
+C:\Users\user\source\repos\LoaningApp\LoaningApp\obj\Debug\LoaningApp.pdb
+C:\Users\user\source\repos\LoaningApp\LoaningApp\bin\Debug\Phidget22.NET.dll
+C:\Users\user\source\repos\LoaningApp\LoaningApp\bin\Debug\Phidget22.NET.pdb
+C:\Users\user\source\repos\LoaningApp\LoaningApp\bin\Debug\Phidget22.NET.xml

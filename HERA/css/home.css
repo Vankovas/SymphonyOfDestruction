@@ -1,0 +1,370 @@
+body {
+  margin: 0;
+  background-color: black;
+}
+
+/*styling of the slideshow image-background*/
+
+
+.image-background-block {
+  background-image: url(../img/home_1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  height: 750px;
+  width: 100%;
+  margin: 0;
+  transition: 1s;
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 2% 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: darkmagenta;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 30%;
+  width: auto;
+  padding: 50px;
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(31, 30, 30, 0.7);
+  color: darkmagenta;
+}
+/*end of styling of the slideshow image-background*/
+
+
+
+
+/*styling of horizontal lines*/
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #FFF;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+  margin: 0;
+}
+
+/*styling content*/
+
+
+
+@keyframes textAnimation2 { 
+   0% {
+      opacity: 0;
+      transform: translateY(200px);
+   }
+   60% {
+      opacity: 1;
+      transform: translateY(30px);
+   }
+   80% {
+      transform: translateY(-10px);
+   }
+   100% {
+      transform: translateY(0);
+   }
+}
+@keyframes textAnimation { 
+   0% {
+      opacity: 0;
+      transform: translateY(-200px);
+   }
+   60% {
+      opacity: 1;
+      transform: translateY(30px);
+   }
+   80% {
+      transform: translateY(-10px);
+   }
+   100% {
+      transform: translateY(0);
+   }
+}
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+.leftWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 440px;
+  background: black;
+
+}
+.left {
+  display: flex;
+  justify-content: center;
+  height: 60%;
+  margin: 0;
+  animation: textAnimation;
+  animation-duration: 2s;
+}
+.leftImage {
+  background-size: cover;
+  display: inline-block;
+  width: 20%;
+  height: 100%;
+  float: left;
+}
+.leftImage img {
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  transition: 0.3s;
+}
+.leftImage img:hover {
+  background: rgba(255, 255, 255, 0.5);
+  opacity: 0.7;
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+}
+.leftText {
+  display: inline-block;
+  width: 60%;
+  height: 100%;
+}
+.leftText h1 {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 0px;
+  padding: 0 50px 0 50px;
+  text-align: left;
+  display: block;
+  color: aliceblue;
+  text-shadow: 3px 3px darkmagenta;
+}
+.leftText p {
+  color: aliceblue;
+  font-family: sans-serif;
+  font-size: 25px;
+  display: block;
+  padding: 0 0 0 50px;
+  margin: 0;
+}
+.rightWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 440px;
+  background: #191919;
+}
+.right {
+  display: flex;
+  justify-content: center;
+  height: 60%;
+  margin: 0;
+  animation: textAnimation2;
+  animation-duration: 2s;
+}
+.rightImage {
+  background-size: cover;
+  display: inline-block;
+  width: 20%;
+  height: 100%;
+  float: right;
+}
+.rightImage img {
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  transition: 0.3s;
+}
+.rightImage img:hover {
+  background: rgba(255, 255, 255, 0.5);
+  opacity: 0.7;
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+}
+.rightText {
+  display: inline-block;
+  width: 60%;
+  height: 100%;
+}
+.rightText h1 {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 0px;
+  padding: 0;
+  text-align: left;
+  display: block;
+  color: aliceblue;
+  text-shadow: 3px 3px darkmagenta;
+}
+.rightText p {
+  color: aliceblue;
+  font-family: sans-serif;
+  font-size: 25px;
+  display: block;
+  padding: 0 50px 0 0;
+  margin: 0;
+}
+@media only screen and (max-width: 1650px) {
+
+  .rightText p,
+  .leftText p {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 1150px) {
+
+  .rightText p,
+  .leftText p {
+    font-size: 18px;
+  }
+  .leftText h1,
+  .rightText h1 {
+    font-size: 45px;
+  }
+}
+@media only screen and (max-width: 950px) {
+
+  .leftWrapper {
+    height: 660px;
+  }
+
+  .left {
+    display: block;
+    justify-content: normal;
+    height: 100%;
+  }
+
+  .leftImage {
+    margin: 20px auto 0 auto;
+    display: block;
+    width: 80%;
+    float: none;
+    height: 50%;
+  }
+
+  .leftText {
+    display: block;
+    width: 80%;
+    padding-top: 50px;
+    height: 30%;
+    margin: 0 auto;
+  }
+
+  .leftText h1 {
+    padding: 0;
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .leftText p {
+    display: block;
+    margin-top: 50px;
+    text-align: center;
+    padding: 0;
+    font-size: 20px;
+  }
+
+  .rightWrapper {
+    height: 660px;
+  }
+
+  .right {
+    display: block;
+    justify-content: normal;
+    height: 100%;
+  }
+
+  .rightImage {
+    margin: 20px auto 0 auto;
+    display: block;
+    width: 80%;
+    float: none;
+    height: 50%;
+  }
+
+  .rightText {
+    display: block;
+    width: 80%;
+    padding-top: 50px;
+    height: 35%;
+    margin: 0 auto;
+  }
+
+  .rightText h1 {
+    padding: 0;
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .rightText p {
+    display: block;
+    margin-top: 50px;
+    text-align: center;
+    padding: 0;
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 725px) {
+  .rightText h1,
+  .leftText h1 {
+    font-size: 34px;
+  }
+
+  .rightText p,
+  .leftText p {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .rightText h1,
+  .leftText h1 {
+    font-size: 25px;
+  }
+
+  .rightText p,
+  .leftText p {
+    font-size: 12px;
+  }
+}
+/*end of styling content*/

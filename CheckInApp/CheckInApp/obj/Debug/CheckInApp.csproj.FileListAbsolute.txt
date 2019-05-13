@@ -1,0 +1,13 @@
+E:\SCHOOL\HOMEWORK\ProP\apps\CheckInApp\CheckInApp\bin\Debug\CheckInApp.exe.config
+E:\SCHOOL\HOMEWORK\ProP\apps\CheckInApp\CheckInApp\bin\Debug\CheckInApp.exe
+E:\SCHOOL\HOMEWORK\ProP\apps\CheckInApp\CheckInApp\bin\Debug\CheckInApp.pdb
+E:\SCHOOL\HOMEWORK\ProP\apps\CheckInApp\CheckInApp\bin\Debug\MySql.Data.dll
+E:\SCHOOL\HOMEWORK\ProP\apps\CheckInApp\CheckInApp\bin\Debug\Phidget22.NET.dll
+E:\SCHOOL\HOMEWORK\ProP\apps\CheckInApp\CheckInApp\bin\Debug\Google.Protobuf.dll
+E:\SCHOOL\HOMEWORK\ProP\apps\CheckInApp\CheckInApp\bin\Debug\Phidget22.NET.pdb
+E:\SCHOOL\HOMEWORK\ProP\apps\CheckInApp\CheckInApp\bin\Debug\Phidget22.NET.xml
+E:\SCHOOL\HOMEWORK\ProP\apps\CheckInApp\CheckInApp\obj\Debug\CheckInApp.Form1.resources
+E:\SCHOOL\HOMEWORK\ProP\apps\CheckInApp\CheckInApp\obj\Debug\CheckInApp.Properties.Resources.resources
+E:\SCHOOL\HOMEWORK\ProP\apps\CheckInApp\CheckInApp\obj\Debug\CheckInApp.csproj.GenerateResource.Cache
+E:\SCHOOL\HOMEWORK\ProP\apps\CheckInApp\CheckInApp\obj\Debug\CheckInApp.exe
+E:\SCHOOL\HOMEWORK\ProP\apps\CheckInApp\CheckInApp\obj\Debug\CheckInApp.pdb

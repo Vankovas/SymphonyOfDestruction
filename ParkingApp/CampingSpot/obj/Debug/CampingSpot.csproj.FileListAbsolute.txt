@@ -1,0 +1,17 @@
+c:\users\user\source\repos\CampingSpot\CampingSpot\bin\Debug\CampingSpot.exe.config
+c:\users\user\source\repos\CampingSpot\CampingSpot\bin\Debug\CampingSpot.exe
+c:\users\user\source\repos\CampingSpot\CampingSpot\bin\Debug\CampingSpot.pdb
+c:\users\user\source\repos\CampingSpot\CampingSpot\bin\Debug\MySql.Data.dll
+c:\users\user\source\repos\CampingSpot\CampingSpot\bin\Debug\Google.Protobuf.dll
+c:\users\user\source\repos\CampingSpot\CampingSpot\bin\Debug\MySql.Data.xml
+c:\users\user\source\repos\CampingSpot\CampingSpot\obj\Debug\CampingSpot.csprojAssemblyReference.cache
+c:\users\user\source\repos\CampingSpot\CampingSpot\obj\Debug\CampingSpot.Form1.resources
+c:\users\user\source\repos\CampingSpot\CampingSpot\obj\Debug\CampingSpot.Properties.Resources.resources
+c:\users\user\source\repos\CampingSpot\CampingSpot\obj\Debug\CampingSpot.csproj.GenerateResource.cache
+c:\users\user\source\repos\CampingSpot\CampingSpot\obj\Debug\CampingSpot.csproj.CoreCompileInputs.cache
+c:\users\user\source\repos\CampingSpot\CampingSpot\obj\Debug\CampingSpot.csproj.CopyComplete
+c:\users\user\source\repos\CampingSpot\CampingSpot\obj\Debug\CampingSpot.exe
+c:\users\user\source\repos\CampingSpot\CampingSpot\obj\Debug\CampingSpot.pdb
+C:\Users\user\source\repos\CampingSpot\CampingSpot\bin\Debug\Phidget22.NET.dll
+C:\Users\user\source\repos\CampingSpot\CampingSpot\bin\Debug\Phidget22.NET.pdb
+C:\Users\user\source\repos\CampingSpot\CampingSpot\bin\Debug\Phidget22.NET.xml

@@ -1,0 +1,11 @@
+E:\SCHOOL\HOMEWORK\ProP\apps\StatusApp\StatusApp\bin\Debug\StatusApp.exe.config
+E:\SCHOOL\HOMEWORK\ProP\apps\StatusApp\StatusApp\bin\Debug\StatusApp.exe
+E:\SCHOOL\HOMEWORK\ProP\apps\StatusApp\StatusApp\bin\Debug\StatusApp.pdb
+E:\SCHOOL\HOMEWORK\ProP\apps\StatusApp\StatusApp\bin\Debug\MySql.Data.dll
+E:\SCHOOL\HOMEWORK\ProP\apps\StatusApp\StatusApp\bin\Debug\Google.Protobuf.dll
+E:\SCHOOL\HOMEWORK\ProP\apps\StatusApp\StatusApp\obj\Debug\StatusApp.Form1.resources
+E:\SCHOOL\HOMEWORK\ProP\apps\StatusApp\StatusApp\obj\Debug\StatusApp.Properties.Resources.resources
+E:\SCHOOL\HOMEWORK\ProP\apps\StatusApp\StatusApp\obj\Debug\StatusApp.csproj.GenerateResource.Cache
+E:\SCHOOL\HOMEWORK\ProP\apps\StatusApp\StatusApp\obj\Debug\StatusApp.exe
+E:\SCHOOL\HOMEWORK\ProP\apps\StatusApp\StatusApp\obj\Debug\StatusApp.pdb
+E:\SCHOOL\HOMEWORK\ProP\apps\StatusApp\StatusApp\obj\Debug\StatusApp.csprojResolveAssemblyReference.cache

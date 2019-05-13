@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransactionsApp", "TransactionsApp\TransactionsApp.csproj", "{FC9A75EA-DF1C-44CC-86F8-71E18137388C}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "TransactionLogs", "TransactionLogs\TransactionLogs.vdproj", "{9C0D43ED-4FE2-49F4-8907-BDA27D803976}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC9A75EA-DF1C-44CC-86F8-71E18137388C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC9A75EA-DF1C-44CC-86F8-71E18137388C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC9A75EA-DF1C-44CC-86F8-71E18137388C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC9A75EA-DF1C-44CC-86F8-71E18137388C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C0D43ED-4FE2-49F4-8907-BDA27D803976}.Debug|Any CPU.ActiveCfg = Debug
+		{9C0D43ED-4FE2-49F4-8907-BDA27D803976}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {24312E7D-F456-4DC8-B0A8-FAE0FB3DB87C}
+	EndGlobalSection
+EndGlobal

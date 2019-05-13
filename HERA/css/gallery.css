@@ -1,0 +1,218 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+/*styling of image-background menu*/
+
+.image-background-block {
+    background-image: url(../img/home_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    /*  height: 100px;*/
+    width: 100%;
+    margin: 0;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #FFF;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+    margin: 0;
+}
+
+
+
+/* Styling of content*/
+
+.gallery_background {
+    background-image: url(../img/gallery_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    height: 60%;
+    width: 100%;
+
+}
+
+.animate_gallery_background {
+    animation: flash;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+
+/*animation*/
+
+@keyframes flash {
+    from,
+    50%,
+    to {
+        opacity: 1;
+    }
+
+    25%,
+    75% {
+        opacity: 0;
+    }
+}
+
+
+.content {
+    padding: 1% 15% 0 15%;
+    background-color: #070707;
+}
+
+.image_band {
+    display: inline-block;
+    padding: 20px 20px 20px 20px;
+
+}
+
+.img_band {
+    max-height: 225px;
+    max-width: 400px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.7);
+}
+
+.img_band:hover {
+    opacity: 0.3;
+    transition: .5s ease;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    padding-top: -200px;
+    transform: translateY(-100%);
+}
+
+.image_band:hover .middle {
+    opacity: 1;
+}
+
+.text {
+    background: rgba(139, 0, 139, 0.8);
+    font-family: sans-serif;
+    color: white;
+    font-size: 20px;
+    padding: 16px 32px;
+    text-align: center;
+
+}
+
+
+/*modal slideshow*/
+
+.smallImages {
+    float: left;
+    width: 25%;
+}
+
+/* The Modal (background) */
+
+.gallery-modal {
+    display: none;
+    position: fixed;
+    z-index: 199;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background: rgba(0, 0, 0, 0.9);
+}
+
+/* Modal Content */
+
+.modal-content {
+    position: relative;
+    margin: auto;
+    width: 90%;
+    max-width: 1300px;
+}
+
+/* The Close Button */
+
+.close {
+    color: white;
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: magenta;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.mySlides {
+    display: none;
+}
+
+#first,
+#second,
+#third,
+#forth {
+    max-height: 600px;
+}
+
+#smallFirst,
+#smallSecond,
+#smallThird,
+#smallForth {
+    height: 200px;
+}
+
+.cursor {
+    cursor: pointer
+}
+
+/* Next & previous buttons */
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 30%;
+    width: auto;
+    padding: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: darkmagenta;
+}
+
+/* Number text (1/3 etc) */
+
+.numbertext {
+    color: magenta;
+    font-size: 24px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* end of styling content */

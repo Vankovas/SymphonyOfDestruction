@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  background-color: black;
+}
+
+/*styling of image-background menu*/
+
+.image-background-block {
+  background-image: url(../img/home_1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+/*  height: 100px;*/
+  width: 100%;
+  margin: 0;
+}
+hr {
+  border: 0;
+  height: 1px;
+  background: #FFF;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+  margin: 0;
+}
+
+/*Styling of content*/
+
+
+.contentWrapper {
+  background: black;
+  height: auto;
+  width: 100%;
+  margin: 0;
+}
+.locationText {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 42px;
+  display: block;
+  color: darkmagenta;
+  text-align: center;
+  padding: 25px 0 0 0;
+  text-decoration: none;
+  margin: 0;
+  text-shadow: 3px 3px magenta;
+  animation: fadeIn;
+  animation-duration: 1.5s;
+}
+.eventLocationWrapper {
+  background-image: url(../img/eventLocationBG.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  height: 800px;
+  width: 100%;
+}
+.eventLocation {
+  margin: 30px auto 0 auto;
+  height: 600px;
+  width: 1200px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  animation: fadeIn;
+  animation-duration: 1.5s;
+}
+.eventLocation iframe {
+  height: 100%;
+  width: 100%;
+}
+.detailedViewWrapper {
+  background: #070707;
+  height: 800px;
+  width: 100%;
+}
+.detailedViewText {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 42px;
+  display: block;
+  color: darkmagenta;
+  text-align: center;
+  padding: 25px 0 0 0;
+  text-decoration: none;
+  margin: 0;
+  text-shadow: 3px 3px magenta;
+  animation: fadeIn;
+  animation-duration: 1.5s;
+}
+.detailedView {
+  margin: 30px auto 0 auto;
+  height: 600px;
+  width: 1200px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  animation: fadeIn;
+  animation-duration: 1.5s;
+}
+.detailedView img {
+  height: 100%;
+  width: 100%;
+}
+.detailedView img:hover {
+  transform: scale(1.5);
+}
+
+/*Animation*/
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

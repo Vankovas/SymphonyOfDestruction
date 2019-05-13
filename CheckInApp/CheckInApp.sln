@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckInApp", "CheckInApp\CheckInApp.csproj", "{A997E4DE-C60D-4C5C-8D36-688F4B2EE40A}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "CheckInAppSetup", "CheckInAppSetup\CheckInAppSetup.vdproj", "{11333D06-07F1-4390-ABFD-AC2F49680015}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A997E4DE-C60D-4C5C-8D36-688F4B2EE40A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A997E4DE-C60D-4C5C-8D36-688F4B2EE40A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A997E4DE-C60D-4C5C-8D36-688F4B2EE40A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A997E4DE-C60D-4C5C-8D36-688F4B2EE40A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11333D06-07F1-4390-ABFD-AC2F49680015}.Debug|Any CPU.ActiveCfg = Debug
+		{11333D06-07F1-4390-ABFD-AC2F49680015}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

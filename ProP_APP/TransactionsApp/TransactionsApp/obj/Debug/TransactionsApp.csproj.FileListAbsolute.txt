@@ -1,0 +1,11 @@
+C:\Users\Valentin\Desktop\ProP_APP\TransactionsApp\TransactionsApp\bin\Debug\TransactionsApp.exe.config
+C:\Users\Valentin\Desktop\ProP_APP\TransactionsApp\TransactionsApp\bin\Debug\TransactionsApp.exe
+C:\Users\Valentin\Desktop\ProP_APP\TransactionsApp\TransactionsApp\bin\Debug\TransactionsApp.pdb
+C:\Users\Valentin\Desktop\ProP_APP\TransactionsApp\TransactionsApp\obj\Debug\TransactionsApp.Form1.resources
+C:\Users\Valentin\Desktop\ProP_APP\TransactionsApp\TransactionsApp\obj\Debug\TransactionsApp.Properties.Resources.resources
+C:\Users\Valentin\Desktop\ProP_APP\TransactionsApp\TransactionsApp\obj\Debug\TransactionsApp.csproj.GenerateResource.Cache
+C:\Users\Valentin\Desktop\ProP_APP\TransactionsApp\TransactionsApp\obj\Debug\TransactionsApp.csproj.CoreCompileInputs.cache
+C:\Users\Valentin\Desktop\ProP_APP\TransactionsApp\TransactionsApp\obj\Debug\TransactionsApp.exe
+C:\Users\Valentin\Desktop\ProP_APP\TransactionsApp\TransactionsApp\obj\Debug\TransactionsApp.pdb
+C:\Users\Valentin\Desktop\ProP_APP\TransactionsApp\TransactionsApp\bin\Debug\MySql.Data.dll
+C:\Users\Valentin\Desktop\ProP_APP\TransactionsApp\TransactionsApp\bin\Debug\MySql.Data.xml

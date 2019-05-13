@@ -1,0 +1,565 @@
+body {
+  margin: 0;
+  background-color: black;
+  font-family: sans-serif;
+}
+
+/*styling of image-background menu*/
+
+.image-background-block {
+  background-image: url(../img/home_1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  /*  height: 100px;*/
+  width: 100%;
+  margin: 0;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #FFF;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+  margin: 0;
+}
+
+/*styling of content*/
+
+.contentWrapper {
+  width: 100%;
+}
+
+.userBoxWrapper {
+  padding: 50px 300px;
+}
+
+.userBox {
+  display: flex;
+  height: 520px;
+}
+
+.userImage {
+  display: inline-block;
+  width: 390px;
+  height: 520px;
+  float: left;
+}
+
+.userImage img {
+  width: 100%;
+  height: 100%;
+
+}
+
+.userInfo {
+  padding-left: 50px;
+  display: inline-block;
+  width: 860px;
+  height: 100%;
+  float: left;
+}
+
+.userInfoBox {
+  height: 20%;
+  width: 100%;
+}
+
+.titleWrapper {
+  width: 49%;
+  display: inline-block;
+}
+
+.infoWrapper {
+  width: 49%;
+  display: inline-block;
+}
+
+.title {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: flex-end;
+  justify-content: center;
+
+}
+
+.info {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.userTextStyle {
+  color: white;
+  font-size: 35px;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-style: oblique;
+}
+
+.underline {
+  border-bottom: 3px solid magenta;
+  border-bottom-left-radius: 5%;
+  border-bottom-right-radius: 5%;
+  animation: slideInRight;
+  animation-duration: 1s;
+}
+
+.editProfile {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 18%;
+}
+
+.resetPage,
+.uploadPhoto {
+  display: none;
+}
+
+.inputfile {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+.resetPage,
+.uploadPhoto,
+.inputfile + label {
+  cursor: pointer;
+  border: none;
+  font-size: 18px;
+  text-align: center;
+  padding: 10px 16px;
+  font-weight: 700;
+  color: #efe3e3;
+  background-color: #ff2222;
+}
+
+.resetPage:hover,
+.uploadPhoto:hover,
+.inputfile + label:hover {
+  background-color: darkred;
+}
+
+/*animations*/
+
+@keyframes slideInRight {
+  from {
+    -webkit-transform: translate3d(50%, 0, 0);
+    transform: translate3d(50%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+
+/*styling of My Tickets section*/
+
+.ticketHeadline {
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 35px;
+  color: ghostwhite;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 3px 3px #595959;
+  margin-bottom: 50px;
+}
+
+.tickets {
+  width: 100%;
+  background: #191919;
+  padding: 20px 0 20px 0;
+}
+
+.ticketWrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 200px;
+  margin: 0 0 20px 0;
+}
+
+.ticket {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+  background: black;
+  border: 1px solid white;
+  /*  box-shadow: 8px 8px 1px #c3c3c3;*/
+}
+
+.ticketInfoWrapper {
+  display: inline-block;
+  padding: 0 1%;
+  width: 80%;
+  height: 100%;
+}
+
+.ticketImageWrapper {
+  display: inline-block;
+  max-height: 100%;
+  padding: 1%;
+  max-width: 20%;
+  background: white;
+}
+
+.ticketImageWrapper img {
+  width: 100%;
+  height: 100%;
+}
+
+.ticketTextStyle {
+  color: aliceblue;
+  width: 100%;
+  height: 100%;
+}
+
+.ticketBox {
+  display: flex;
+  justify-content: center;
+  height: 30.5%;
+  width: 100%;
+  border-bottom: 1px solid white;
+}
+
+.ticketBoxTitleWrapper {
+  display: inline-block;
+  width: 49%;
+}
+
+.ticketBoxTitle {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.ticketBoxInfoWrapper {
+  display: inline-block;
+  width: 50%;
+}
+
+.ticketBoxInfo {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.noTickets {
+  display: block;
+  font-size: 30px;
+  padding: 10px 16px;
+  width: 25%;
+  text-align: center;
+  cursor: pointer;
+  margin: 0 auto;
+  color: #efe3e3;
+  background-color: #ff2222;
+  margin-bottom: 30px;
+  margin-top: -10px;
+  text-decoration: none;
+}
+
+.notickets:hover {
+  background-color: darkred;
+}
+
+.print-btn {
+  cursor: pointer;
+  display: none;
+  padding: 10px 16px;
+  background: black;
+  color: white;
+  border: none;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 1700px) {
+  .userTextStyle {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 1450px) {
+  .contentWrapper {
+    padding-top: 50px;
+  }
+  .userBoxWrapper {
+    height: 1020px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  .userBox {
+    display: block;
+    height: auto;
+  }
+  .userImage {
+    display: block;
+    float: none;
+    margin: 0 auto;
+  }
+  .userInfo {
+    padding-left: 0;
+    display: block;
+    float: none;
+    width: 80%;
+    height: 520px;
+    margin: 0 auto;
+  }
+  .userInfoBox {}
+  .ticket {
+    width: 80%;
+  }
+
+}
+
+@media only screen and (max-width: 850px) {
+  .email {
+    font-size: 18px;
+  }
+}
+
+@media print {
+  body {
+    background-color: white;
+    width: 100%;
+  }
+
+  .tickets {
+    width: 100%;
+    padding: 0;
+    background-color: white;
+  }
+  .ticket {
+    width: 100%;
+    background: black;
+  }
+  .printable {
+    display: block;
+  }
+
+  .printable h1 {
+    display: none;
+  }
+  .non-printable {
+    display: none;
+    visibility: hidden;
+  }
+
+  hr {
+    visibility: hidden;
+  }
+  .eventName,
+  .ticketID,
+  .days {
+    font-size: 20px;
+  }
+
+  .ticketWrapper {
+    margin: 0 0 25px 0;
+  }
+
+}
+
+
+/*huts and camps css*/
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.hutbox {
+  display: block;
+  padding-bottom: 100px;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.campbox {
+  display: block;
+  padding-bottom: 100px;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.hut_info {
+  color: white;
+  background-image: url(/img/hut_img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  border-radius: 50px;
+  padding-top: 20px;
+}
+
+.camp_info {
+  color: white;
+  background-image: url(/img/camp_img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  border-radius: 50px;
+  padding-top: 20px;
+}
+
+.hut_idbox {
+  text-align: center;
+  border-radius: 10px;
+  display: block;
+  width: 75%;
+  margin: auto;
+  padding: 10 0 10 0;
+  background: rgba(0, 0, 0, 0.8);
+  font-size: 32;
+  color: magenta;
+}
+
+.camp_idbox {
+  text-align: center;
+  border-radius: 10px;
+  display: block;
+  width: 75%;
+  margin: auto;
+  padding: 10 0 10 0;
+  background: rgba(0, 0, 0, 0.8);
+  font-size: 32;
+  color: magenta;
+}
+
+.hut_tickets {
+  padding-top: 150px;
+  font-size: 20px;
+}
+
+.camp_tickets {
+  padding-top: 150px;
+  font-size: 20px;
+}
+
+.hutForm {
+  background: rgba(0, 0, 0, 0.7);
+  display: block;
+  margin: 0;
+  padding: 20;
+}
+
+.campForm {
+  background: rgba(0, 0, 0, 0.7);
+  display: block;
+  margin: 0;
+  padding: 20;
+}
+
+.submitBtn {
+  padding: 20px;
+}
+
+.addPersonsHut {
+  padding: 10 30 10 30;
+  margin: 0 auto;
+  display: block;
+  border: 0;
+  color: white;
+  background-color: darkmagenta;
+  font-size: 25px;
+}
+
+.addPersonsCamp {
+  padding: 10 30 10 30;
+  margin: 0 auto;
+  display: block;
+  border: 0;
+  color: white;
+  background-color: darkmagenta;
+  font-size: 25px;
+}
+
+.inputN {
+  border: 0;
+  padding: 3px;
+}
+
+/*Reservation*/
+
+.reservations-wrapper {
+  padding: 20px 0;
+  background-color: #191919;
+  width: 100%;
+}
+
+.reservations-headline {
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 35px;
+  color: ghostwhite;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 3px 3px #595959;
+}
+
+.res-items {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.res-box-wrapper {
+  display: inline-block;
+  vertical-align: top;
+  height: 300px;
+  width: 500px;
+  margin: 0 0 20px 20px;
+}
+
+.res-box {
+  background: url("../img/hut_img.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+}
+
+.res-ticketID,
+.res-type {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  width: 100%;
+  height: 15%;
+  font-size: 40px;
+  text-align: center;
+}
+
+.res-ticketID {
+  margin-top: auto;
+}

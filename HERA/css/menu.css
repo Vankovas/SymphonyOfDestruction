@@ -1,0 +1,317 @@
+/*styling of the menu*/
+
+.menu {
+    height: 100px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.navBar {
+    margin: 0 auto;
+    width: 100%;
+    padding: 18px 0;
+}
+
+.nav {
+    padding: 0;
+    margin: 0 auto;
+    list-style-type: none;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    text-shadow: 3px 3px darkmagenta;
+}
+
+.navBtn {
+
+    padding: 0 30px;
+}
+
+.navBtn a {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.navBtn a:hover {
+    color: darkgrey;
+    text-shadow: 2px 2px darkmagenta;
+}
+
+.loginBTN {
+    cursor: pointer;
+}
+
+.loginBTN a {
+    text-shadow: 3px 3px #005796;
+    color: #00aeff;
+}
+
+.loginBTN a:hover {
+    color: #008ed1;
+    text-shadow: 3px 3px #005796;
+}
+
+.logoutBTN {
+    cursor: pointer;
+}
+
+.logoutBTN a {
+    color: magenta;
+    text-shadow: magenta;
+}
+
+.logoutBTN a:hover {
+    color: darkmagenta;
+}
+
+/*end of styling menu*/
+
+/*scaling the menu*/
+
+@media only screen and (max-width: 1450px) {
+    .navBtn {
+        padding: 0 15px;
+    }
+}
+
+@media only screen and (max-width: 1250px) {
+    .navBtn {
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    .image-background-block {
+        height: 450px;
+    }
+    .nav {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.registerWrapper {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.8);
+    padding-top: 60px;
+}
+
+.login-register {
+
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.8);
+    padding-top: 60px;
+
+}
+
+/* Bordered form */
+
+.loginForm {
+    background-color: whitesmoke;
+    margin: 5px auto;
+    /* 15% from the top and centered */
+    border: 1px solid #888;
+    width: 50%;
+    /* Could be more or less, depending on screen size */
+}
+
+.registerForm {
+    background-color: whitesmoke;
+    margin: 5px auto;
+    /* 15% from the top and centered */
+    border: 1px solid #888;
+    width: 50%;
+}
+
+/* Full-width input fields */
+
+input[type=text],
+input[type=password],
+input[type=email] {
+    width: 100%;
+    padding: 12px 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.text-input {
+    display: block;
+    font-family: sans-serif;
+}
+
+/* Set a style for all buttons */
+
+#buttonsRegForms,
+#buttonsRegForms2,
+#buttonsRegForms3 {
+    background-color: magenta;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+#buttonsRegForms:hover,
+#buttonsRegForms2:hover,
+#buttonsRegForms3:hover {
+    opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+
+.cancelbtn {
+    font-size: 18px;
+    font-family: sans-serif;
+    color: white;
+    display: block;
+    cursor: pointer;
+    width: 100%;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* The Close Button (x) */
+
+.close {
+    position: absolute;
+    right: 50px;
+    top: 20px;
+    color: magenta;
+    font-size: 42px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes animatezoom {
+    from {
+        transform: scale(0)
+    }
+    to {
+        transform: scale(1)
+    }
+}
+
+/* Change styles for span and cancel button on extra small screens */
+
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+}
+
+.loginContainer {
+    padding: 16px;
+}
+
+.problemPopup {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.8);
+    padding-top: 200px;
+}
+
+.successPopup {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.8);
+    padding-top: 200px;
+}
+
+.popup {
+    background-color: whitesmoke;
+    margin: 5px auto;
+    border: 1px solid #888;
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+
+.message {
+    text-align: center;
+    display: block;
+    font-family: sans-serif;
+    font-size: 24;
+    padding-bottom: 15px;
+
+}
+
+.okButton {
+    padding: 20px;
+    background-color: magenta;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: sans-serif;
+}

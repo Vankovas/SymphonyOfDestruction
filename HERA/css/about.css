@@ -1,0 +1,212 @@
+body {
+  margin: 0;
+  background-color: black;
+}
+
+/*styling of image-background menu*/
+
+.image-background-block {
+  background-image: url(../img/home_1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  /*  height: 100px;*/
+  width: 100%;
+  margin: 0;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #FFF;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+  margin: 0;
+}
+
+/*Styling of content*/
+
+.content_about {
+  background-image: url(../img/about_background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  height: 650px;
+  width: 100%;
+}
+
+.about_text {
+
+  margin: 5% 0 0 5%;
+  padding: 5px 5px 5px 5px;
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.75);
+  width: 40%;
+  height: 40%;
+  color: white;
+  font-family: sans-serif;
+  animation: slideInRight;
+  animation-duration: 1s;
+}
+
+.about_text p {
+  padding: 0 1% 2% 2%;
+  margin: 0;
+  font-size: 22px;
+}
+
+.about_text h1 {
+  margin: 0;
+  padding: 3% 0 3% 3%;
+  font-size: 46px;
+  font-family: sans-serif;
+  color: #e3e5b5;
+  text-shadow: 5px 5px 5px rgba(139, 0, 139, 0.5);
+}
+
+/*animation*/
+
+@keyframes slideInRight {
+  from {
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+
+
+/*scaling*/
+
+@media only screen and (max-width: 1650px) {
+  .about_text h1 {
+    font-size: 40px;
+  }
+  .about_text p {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 1450px) {
+  .about_text h1 {
+    font-size: 38px;
+  }
+  .about_text p {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  .about_text {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    height: 40%;
+  }
+  .content_about {
+    padding-top: 10%;
+  }
+  .about_text h1 {
+    text-align: center;
+  }
+  .about_text p {
+    text-align: center;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .about_text h1 {
+    font-size: 36px;
+  }
+  .about_text p {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .about_text p {
+    font-size: 16px;
+  }
+}
+
+/*End of scaling*/
+
+.content_contact {
+  width: 100%;
+}
+
+.content_contact h2 {
+
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 46px;
+  margin: 0;
+  padding-top: 2%;
+  color: #e3e5b5;
+  text-shadow: 5px 5px 5px rgba(139, 0, 139, 0.5);
+}
+
+.contact_form {
+  padding: 5% 25% 5% 25%;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+
+.contact-input,
+select,
+.contact-input-message {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.contact-btn {
+  background-color: darkmagenta;
+  color: rgb(255, 255, 255);
+  padding: 5px 12px;
+  border: none;
+  border-radius: 1px;
+  cursor: pointer;
+}
+
+select,
+.contact-input-message {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 1px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.contact-btn:hover {
+  background-color: black;
+}
+
+.contact-input.error,
+.contact-input-message.error {
+  color: red;
+  border-color: red;
+}
+
+/* Add a background color and some padding around the form */
+
+.container {
+  border-radius: 1px;
+  background-color: antiquewhite;
+  padding: 20px;
+}
+
+/*end of content*/

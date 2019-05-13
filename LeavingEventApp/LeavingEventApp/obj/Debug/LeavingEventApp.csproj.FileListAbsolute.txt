@@ -1,0 +1,17 @@
+C:\Users\user\source\repos\LeavingEventApp\LeavingEventApp\bin\Debug\LeavingEventApp.exe.config
+C:\Users\user\source\repos\LeavingEventApp\LeavingEventApp\bin\Debug\LeavingEventApp.exe
+C:\Users\user\source\repos\LeavingEventApp\LeavingEventApp\bin\Debug\LeavingEventApp.pdb
+C:\Users\user\source\repos\LeavingEventApp\LeavingEventApp\bin\Debug\MySql.Data.dll
+C:\Users\user\source\repos\LeavingEventApp\LeavingEventApp\bin\Debug\Google.Protobuf.dll
+C:\Users\user\source\repos\LeavingEventApp\LeavingEventApp\bin\Debug\MySql.Data.xml
+C:\Users\user\source\repos\LeavingEventApp\LeavingEventApp\obj\Debug\LeavingEventApp.csprojAssemblyReference.cache
+C:\Users\user\source\repos\LeavingEventApp\LeavingEventApp\obj\Debug\LeavingEventApp.Form1.resources
+C:\Users\user\source\repos\LeavingEventApp\LeavingEventApp\obj\Debug\LeavingEventApp.Properties.Resources.resources
+C:\Users\user\source\repos\LeavingEventApp\LeavingEventApp\obj\Debug\LeavingEventApp.csproj.GenerateResource.cache
+C:\Users\user\source\repos\LeavingEventApp\LeavingEventApp\obj\Debug\LeavingEventApp.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\LeavingEventApp\LeavingEventApp\obj\Debug\LeavingEventApp.csproj.CopyComplete
+C:\Users\user\source\repos\LeavingEventApp\LeavingEventApp\obj\Debug\LeavingEventApp.exe
+C:\Users\user\source\repos\LeavingEventApp\LeavingEventApp\obj\Debug\LeavingEventApp.pdb
+C:\Users\user\source\repos\LeavingEventApp\LeavingEventApp\bin\Debug\Phidget22.NET.dll
+C:\Users\user\source\repos\LeavingEventApp\LeavingEventApp\bin\Debug\Phidget22.NET.pdb
+C:\Users\user\source\repos\LeavingEventApp\LeavingEventApp\bin\Debug\Phidget22.NET.xml
